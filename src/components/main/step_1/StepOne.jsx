@@ -28,6 +28,9 @@ const StepOne = () => {
           <b>flechas del teclado</b>, <b>usar el mouse</b>, o{" "}
           <b>escribir encima de él</b>.
         </p>
+        <p className={`pb-2`}>
+          Para usar <b>decimales</b>, escríbelos de derecha a izquierda.
+        </p>
         <p>
           <b>No te preocupes!</b> Todos los cambios que realices se guardarán
           aqui hasta otra oportunidad.

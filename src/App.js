@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div
-      className={`h-full flex items-center place-content-center ${themes.bg_one}`}
+      className={`w-full flex items-center place-content-center ${themes.bg_one}`}
     >
       <div className="min-w-ucss w-ucss mx-10 my-10">
         <Header />

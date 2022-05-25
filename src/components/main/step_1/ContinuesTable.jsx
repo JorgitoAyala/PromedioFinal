@@ -56,6 +56,7 @@ const ContinuesTable = () => {
               type="number"
               defaultValue={`${el.c1}`}
               inputMode="numeric"
+              onInput={(e) => (e.target.value = evalNumber(e.target.value))}
               min={0}
               max={20}
               autoComplete="off"
@@ -75,6 +76,7 @@ const ContinuesTable = () => {
               type="number"
               defaultValue={`${el.c2}`}
               inputMode="numeric"
+              onInput={(e) => (e.target.value = evalNumber(e.target.value))}
               min={0}
               max={20}
               autoComplete="off"
@@ -94,6 +96,7 @@ const ContinuesTable = () => {
               type="number"
               defaultValue={`${el.c3}`}
               inputMode="numeric"
+              onInput={(e) => (e.target.value = evalNumber(e.target.value))}
               min={0}
               max={20}
               autoComplete="off"
@@ -113,6 +116,7 @@ const ContinuesTable = () => {
               type="number"
               defaultValue={`${el.c4}`}
               inputMode="numeric"
+              onInput={(e) => (e.target.value = evalNumber(e.target.value))}
               min={0}
               max={20}
               autoComplete="off"
@@ -132,6 +136,7 @@ const ContinuesTable = () => {
               type="number"
               defaultValue={`${el.c5}`}
               inputMode="numeric"
+              onInput={(e) => (e.target.value = evalNumber(e.target.value))}
               min={0}
               max={20}
               autoComplete="off"
@@ -151,6 +156,7 @@ const ContinuesTable = () => {
               type="number"
               defaultValue={`${el.c6}`}
               inputMode="numeric"
+              onInput={(e) => (e.target.value = evalNumber(e.target.value))}
               min={0}
               max={20}
               autoComplete="off"
@@ -170,6 +176,7 @@ const ContinuesTable = () => {
               type="number"
               defaultValue={`${el.c7}`}
               inputMode="numeric"
+              onInput={(e) => (e.target.value = evalNumber(e.target.value))}
               min={0}
               max={20}
               autoComplete="off"
@@ -189,6 +196,7 @@ const ContinuesTable = () => {
               type="number"
               defaultValue={`${el.c8}`}
               inputMode="numeric"
+              onInput={(e) => (e.target.value = evalNumber(e.target.value))}
               min={0}
               max={20}
               autoComplete="off"
@@ -208,6 +216,7 @@ const ContinuesTable = () => {
               type="number"
               defaultValue={`${el.c9}`}
               inputMode="numeric"
+              onInput={(e) => (e.target.value = evalNumber(e.target.value))}
               min={0}
               max={20}
               autoComplete="off"
@@ -227,6 +236,7 @@ const ContinuesTable = () => {
               type="number"
               defaultValue={`${el.c10}`}
               inputMode="numeric"
+              onInput={(e) => (e.target.value = evalNumber(e.target.value))}
               min={0}
               max={20}
               autoComplete="off"

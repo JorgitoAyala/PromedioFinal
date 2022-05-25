@@ -52,6 +52,7 @@ const GeneralsTable = () => {
               type="number"
               defaultValue={el.p1}
               inputMode="numeric"
+              onInput={(e) => (e.target.value = evalNumber(e.target.value))}
               min={0}
               max={20}
               autoComplete="off"
@@ -71,6 +72,7 @@ const GeneralsTable = () => {
               type="number"
               defaultValue={el.p2}
               inputMode="numeric"
+              onInput={(e) => (e.target.value = evalNumber(e.target.value))}
               min={0}
               max={20}
               autoComplete="off"
@@ -90,6 +92,7 @@ const GeneralsTable = () => {
               type="number"
               defaultValue={el.p3}
               inputMode="numeric"
+              onInput={(e) => (e.target.value = evalNumber(e.target.value))}
               min={0}
               max={20}
               autoComplete="off"
@@ -109,6 +112,7 @@ const GeneralsTable = () => {
               type="number"
               defaultValue={el.ef}
               inputMode="numeric"
+              onInput={(e) => (e.target.value = evalNumber(e.target.value))}
               min={0}
               max={20}
               autoComplete="off"
