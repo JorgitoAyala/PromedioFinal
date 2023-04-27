@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PromedioFinal/static/css/main.6ce3b232.css",
+    "main.js": "/PromedioFinal/static/js/main.a60a98b4.js",
+    "static/media/ayuda.png": "/PromedioFinal/static/media/ayuda.480a60d92815c7f3ff7f.png",
+    "static/media/react-logo.png": "/PromedioFinal/static/media/react-logo.988eec187d0c528e43b8.png",
+    "index.html": "/PromedioFinal/index.html",
+    "main.6ce3b232.css.map": "/PromedioFinal/static/css/main.6ce3b232.css.map",
+    "main.a60a98b4.js.map": "/PromedioFinal/static/js/main.a60a98b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ce3b232.css",
+    "static/js/main.a60a98b4.js"
+  ]
+}
